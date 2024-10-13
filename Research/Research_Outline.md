@@ -22,12 +22,7 @@
 - #### Device and Peripheral Security
 	- Restrict USB Access (GPO or other methods)
 	- Disable Unnecessary Peripherals (e.g. Bluetooth, etc...)
-	- Device Guard (driver and application control - research)
-
-- #### Patch Management [Remove? Less low-level]
-	- Automatic Windows Update for Critical Patches
-	- WSUS / Windows Update for Business Managed Patch Deployment
-	- Third-party Software Patch Checks and Updates
+	- Device 	Guard (driver and application control - research)
 
 - #### Network and Firewall Security
 	- Inbound/Outbound Rules in Windows Firewall
@@ -49,8 +44,3 @@
 	- Remove/Disable Unnecessary Services (e.g. Print Spooler, etc... - research)
 	- Remove/Disable Protocols (e.g. Telnet, etc... - research)
 	- Administrator-Only Restrictions to PowerShell Remoting and WMI - research
-
-- #### Account and Authentication Security [Needed..?]
-	- Configure Password Policies
-	- Remove Unnecessary Accounts
-	- Credential Guard for Virtualized Environments
